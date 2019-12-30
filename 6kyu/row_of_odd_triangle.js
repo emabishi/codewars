@@ -34,7 +34,9 @@ function oddRow(n) {
 
 
 function oddRow(n) {
+  // Min odds on the left the triangle follow this arithmetic pattern from one to the next
   const min = n * n - (n-1);
+  // Max odds on the left the triangle follow this arithmetic pattern from one to the next
   const max = n * n + (n-1);
 
   console.log(min);
