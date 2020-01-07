@@ -19,7 +19,6 @@ function duplicateCount(text) {
 
   console.log(result)
   return result;
-   
 }
 
 
